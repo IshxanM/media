@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Главная'
+})
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      @@include('html/burger.html', {})
+      @@include('html/header.html', {})
+    </header>
+    <main class="main">
+      @@include('html/main.html', {})
+    </main>
+    <footer class="footer">
+      @@include('html/footer.html', {})
+    </footer>
+  </div>
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>

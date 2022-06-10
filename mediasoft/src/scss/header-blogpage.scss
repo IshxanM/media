@@ -1,0 +1,68 @@
+.heagerd-blog {
+    margin-top: 130px;
+    
+}
+.heager-blog-photo-blue {
+   position: relative;
+}
+.photo-blue-images {
+   position: relative;
+  
+}
+.photo-blue-images img {
+    position: relative;
+    top: 0;
+  width: 100%;
+  
+   
+   @media(max-width:547px){
+height: 120px;
+   }
+   @media(max-width:330px){
+    height: 140px;
+       }
+}
+.heager-blog-text-blue {
+    position: absolute;
+    font-family: 'Gilroy-Semibold';
+    text-align: center;
+    letter-spacing: 0.04em;
+    top: 0;
+    position: absolute;
+    text-align: center;
+    left: 17%;
+    right: 17%;
+}
+.heager-blog-text-blue-title {
+    margin-top: calc(10px + (30 - 10) * ((100vw - 320px) / (1800 - 320)));
+    left: 17%;
+    right: 17%;
+    text-align: center;
+    position: absolute;
+    line-height:168%;
+    font-family: 'Gilroy-Semibold';
+font-size: 44px;
+   
+    color: #ffffff;
+    @media(max-width:977px){
+font-size: 35px;
+    }
+    @media(max-width:778px){
+        font-size: 18px;
+            }
+}
+.heager-blog-text-blue-text {
+    position: absolute;
+    margin-top: calc(35px + (120 - 35) * ((100vw - 320px) / (1800 - 320)));
+    font-family: 'Gilroy-Regular';
+font-size: 20px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.4);
+
+@media(max-width:977px){
+    font-size: 16px;
+        }
+        @media(max-width:684px){
+            font-size: 12px;
+                }
+}

@@ -1,0 +1,159 @@
+.footer-footer{
+    
+    background-color: #316099;
+    max-width: 95%;
+    z-index: 2;
+    padding: 91px 0px 10px 0px;
+    border-radius: 0px 200px 0px 0;
+    @media(max-width:743px){
+        border-radius: 0px 100px 0px 0;
+    }
+   
+}
+._prob{
+background-color: #5A98D0;
+}
+._footer-container{
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0px 15px 0px 15px;
+   
+}
+.footer-interest {
+display: flex;
+justify-content: space-between;
+padding: 0px 10px 0px 10px;
+@media(max-width:743px){
+    flex-wrap: wrap;
+}
+    
+}
+.footer-interest-inform {
+display: flex;
+flex-direction: column;
+
+		&_title {
+            font-family: 'Gilroy-Semibold';
+            font-size: 36px;
+            line-height: 128%;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            margin-bottom: 32px;
+		}
+
+		&_text {
+            font-family: 'Gilroy-Regular';
+            font-size: 16px;
+            line-height: 162%;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            opacity: 0.6;
+            max-width: 460px;
+		}
+}
+.talck {
+   
+   font-family: 'Gilroy-Regular';
+font-size: 16px;
+line-height: 162%;
+
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: #5A98D0;
+border-radius: 10px;
+padding: 15px 74px;
+align-items: center;
+display: block;
+margin-top: 35%;
+transition: all 1s ease 0s;
+
+}
+.talck:hover{
+    background-color: #0a77d6;
+}
+/***********************************************************************************/
+.line{
+    margin: 96px 0px 96px 0px;
+    border-bottom: solid 1px #ffffff;
+    max-width: 1170px;
+}
+.afrianska {
+
+    &_afrianska-title {
+        padding: 0px 0px 33px 0px;
+    }
+}
+.name{
+    font-family: 'Gilroy-Semibold';
+    font-size: 28px;
+    line-height: 164%;
+    letter-spacing: 0.02em; 
+    color: #FFFFFF;
+    padding: 0px 0px 0px 16px;
+}
+.name:hover{
+    text-decoration: underline;
+}
+.afrianska-text {
+    font-family: 'Gilroy';
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+margin-bottom: 24px;
+}
+.afrianska-text span{
+   padding-right: 15px;
+    
+    }
+.contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 15px 0px 15px;
+}
+.about {
+}
+.footer {
+
+		&_services {
+		}
+
+		&_menu {
+		}
+
+		&_list {
+		}
+
+		&_link {
+            display: inline-block;
+            padding: 0px 0px 16px 0px;
+            font-family: 'Gilroy-Regular';
+            font-size: 16px;
+            line-height: 162%;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+		}
+        &_link:hover{
+text-decoration: underline;
+        }
+}
+.bold {
+    display: inline-block;
+    font-family: 'Gilroy-Semibold';
+font-size: 20px;
+line-height:150%;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+margin: 0px 0px 17px 0px;
+
+}
+.bottom{
+    font-family: 'Gilroy-Regular';
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.4;
+padding: 0px 0px 0px 10px;
+}

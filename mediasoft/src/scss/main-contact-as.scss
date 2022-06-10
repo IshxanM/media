@@ -1,0 +1,209 @@
+.contact-contact {
+display: flex;
+justify-content: space-between;
+margin: 0px 0px 30px 0px;
+
+    @media(max-width:916px){
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &_contact-left {
+        max-width: 311px;
+        align-items: center;
+        
+       
+    }
+}
+.girl {
+
+    margin: 120px 0px 71px 0px;
+}
+.adress {
+    margin: 0px 0px 40px 0px;
+    &_adress-title {
+        margin: 0px 0px 24px 0px;
+font-family: 'Gilroy-Semibold';
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #1F3F68;
+    }
+
+    &_adress-text {
+        font-family: 'Gilroy-Light';
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.04em;
+color: #1F3F68;
+opacity: 0.6;
+    }
+}
+.phone {
+    margin: 0px 0px 40px 0px;
+display: flex;
+flex-direction: column;
+}
+.phone-tel {
+    font-family: 'Gilroy';
+font-size: 16px;
+line-height:  162%;
+letter-spacing: 0.04em;
+color: #1F3F68;
+margin: 0px 0px 16px 0px;
+}
+.phone-tel:hover {
+    text-decoration: underline;
+}
+.icon {
+
+align-items: center;
+margin: 3px 16px 0px 0px;
+}
+.website:hover {
+    text-decoration: underline;
+    }
+.service {
+    display: flex;
+    flex-direction: column;
+}
+.website {
+    
+font-family: 'Gilroy';
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.05em;
+color: #1F3F68;
+margin: 0px 0px 16px 0px;
+flex-direction: column;
+
+}
+
+/****************************************************contact-right**********************************/
+.contact {
+    padding: 0px 0px 40px 0px;
+    &_contact-right {
+        width: 540px;
+        margin: 57px 0px 0px 0px;
+        
+        box-shadow: 0 0 20px #88a4ff;
+        @media(max-width:601px){
+            width: 350px;
+            text-align: center;
+            align-content: center;
+        }
+        @media(max-width:417px){
+            width: 300px;
+        }
+    }
+}
+.cover {
+   padding: 56px 56px 56px 56px;
+  
+}
+.contact-name{
+    font-family: 'Gilroy-Semibold';
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #1F3F68;
+margin-bottom: 48px;
+}
+
+ 
+p.cont { 
+    font-family: 'Gilroy-Regular';
+font-size: 16px;
+line-height: 188%;
+letter-spacing: 0.04em;
+color: #1F3F68;
+opacity: 0.8;
+text-align: left;
+margin: 0px 0px 0px 0px;
+}
+ 
+#cont {
+    margin-bottom: 0px; 
+}
+ 
+.input-input {
+    
+    height: 70px;
+    width: 400px;
+    margin: 0px 0px 0px 0px;
+    @media(max-width:601px){
+        width: 300px;
+    }
+}
+.form-form{
+    background-color: #fff;
+}
+
+
+ label { 
+     display: block;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 428px;
+    height: 144px;
+    resize: none;
+    @media(max-width:600px){
+        
+    }
+}
+.ttt{
+    @media(max-width:600px){
+        width: 230px;
+    height: 104px;
+    
+    }
+}
+.input-input { 
+   
+    border: 1px solid #356EAD; 
+    padding: 10px; 
+    text-align: left;
+  
+    font-size: 24px; 
+    -webkit-border-radius: 5px;
+    
+}
+ 
+
+ 
+.input-input[placeholder] {
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 188%;  
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+}
+
+ .button-btn{
+    background-color: #5A98D0;
+    margin: 72px 0px 0px 0px;
+text-align: center;
+font-family: 'Gilroy-Semibold';
+font-size: 16px;
+letter-spacing: 0.04em;
+color: #ffffff;
+border-radius: 10px;
+padding: 23px 185px 43px 185px;
+justify-content: center;
+text-align: center;
+display: flex;
+@media(max-width:601px){
+    padding: 13px 90px 23px 90px;
+}
+
+  }
+  /* Изменение фона кнопки при наведении */
+  .button-btn:hover{
+    background:#80b438;
+  }
+.maps{
+    margin: 96px 0px 96px 0px;
+   
+}

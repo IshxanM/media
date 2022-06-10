@@ -1,0 +1,333 @@
+._container{
+    padding: 0px 15px 0px 15px;
+    max-width: 970px;
+    margin: 0 auto;
+}
+.main_container {
+        margin-top: 180px;
+        @media(max-width:875px){
+            margin: 100px 0px 0px 0px; 
+        }
+    }
+
+.red_man{
+    margin: -70px 0px 0px 0px;
+}
+.card_top_title{
+    margin: 0px 0px 0px 0px;
+    font-family: 'Gilroy';
+font-size: 36px;
+line-height: 128% ;
+letter-spacing: 0.05em;
+color: #316099;
+@media(max-width:423px){
+    font-size: 26px;
+}
+}
+.card {
+    padding: 48px 48px 48px 48px;
+    box-shadow: 0 0 15px #5a81ff;
+   
+    &_left {
+        
+        min-width: 280px;
+        max-width: 380px;
+        background-color: #FFFFFF;
+        
+        @media(max-width:859px){
+        padding: 0px 0px 40px 0px;
+        }
+
+    }
+   
+    &_top {
+    font-family: 'Gilroy';
+    font-size: 36px;
+    color: #316099;
+    }
+
+    &_card-icon {
+        text-align: center;
+        margin-bottom: 56px;
+    }
+
+    &_card-title {
+    font-family: 'Gilroy-Semibold';
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-bottom: 16px;
+
+    }
+
+    &_card-text {
+        font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 162%;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-bottom: 32px;
+    }
+
+    &_card-learn {
+        color:#5A98D0;
+        padding: 10px 0px;
+        margin-right: 40px;
+        font-family: 'Gilroy-Semibold';
+    }
+
+    &_card-learn:hover {
+        text-decoration: underline;
+    }
+   
+    
+}
+.card-one{
+    padding: 0px 0px 50px 0px;
+}
+.learn_icon{
+    padding-left: 40px;
+}
+
+.main_card{
+    display: flex;
+    justify-content:space-around;
+    @media(max-width:859px){
+        
+        flex-wrap: wrap;
+
+    }
+}
+
+.right{
+display: flex;
+flex-direction: column;
+min-width: 280px;
+max-width: 380px;
+
+}
+.top{
+    margin-bottom: 99px;
+    
+    @media(max-width:859px){
+        margin-bottom: 40px;
+    }
+     }
+.center{
+    align-items: center; 
+    margin: 158px 0px 0px 0px; 
+    
+    @media(max-width:788px){
+        margin: 108px 0px 0px 0px;
+    }
+    @media(max-width:418px){
+        margin: 59px 0px 0px 0px;
+    }
+}
+
+/************************************Finushed Project********************************************/
+.block {
+   
+    &_project {
+        
+    }
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    @media(max-width:815px){
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.project {
+
+    &_title {
+        font-family: 'Gilroy-Semibold';
+        font-size: 36px;
+        line-height: 128% ;
+        letter-spacing: 0.05em;
+        color: #1F3F68;
+        padding-bottom: 20px;
+    }
+
+    &_text {
+        padding: 0px 80px 108px 0px;
+        font-family: 'Gilroy';
+    font-size: 16px;
+    line-height:162%;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    max-width: 540px;
+    
+    @media(max-width:815px){
+        max-width: 100%;
+        padding: 0px 0px 20px 0px;
+    }
+    }
+
+    &_photo {
+        position: relative;
+    }
+    &_photo img {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        position: relative;
+		
+    }
+}
+.text_photo{
+    text-align: right;
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    font-family: 'Gilroy-Medium';
+    font-size: 28px;
+    line-height: 164%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    @media(max-width:542px){
+    font-size:20px;
+    }
+span{
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 288%;
+    letter-spacing: 0.05em;
+    @media(max-width:542px){
+        font-size:10px;
+        }
+}
+}
+/***************************************************block image************************/
+.block-image {
+display: flex;
+justify-content: space-between;
+margin-top: 96px;
+@media(max-width:887px){
+flex-wrap: wrap;
+justify-content: center;
+}
+&_sparklite {
+    
+    @media(max-width:887px){
+    padding: 0px 0px 20px 0px;
+        }
+}
+&_sparklite{
+    position: relative;
+
+    @media(min-width:887px){
+        padding-right: 10px;
+            }
+}
+    &_sparklite img {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+       
+        
+    }
+    &_car-rapetition{
+        position: relative;
+
+        @media(min-width:887px){
+            padding-left: 10px;
+                }    
+}
+
+    &_car-rapetition img {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    &_text{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        font-family: 'Gilroy-Medium';
+        font-size: 28px;
+        line-height: 164%;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+    span{
+        opacity: 0.8;
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+        line-height: 288% ;
+        letter-spacing: 0.05em;
+    }
+}
+/***********************************************beloved client*********************************/
+.white{
+    padding-top: 96px;
+    color: #FFFFFF;
+    @media(max-width:780px){
+        padding-top: 52px;
+    }
+}
+
+.beloved-client{
+    height: 100%;
+    margin-top: 192px;
+    background-color: #5A98D0;
+    border-radius: 200px 0px 0px 0;
+    padding: 0px 0px 100px 0px;
+@media(max-width:780px){
+    margin-top: 102px;
+}
+@media(max-width:743px){
+    border-radius: 100px 0px 0px 0;
+    margin-top: 70px;
+}
+}
+/*****************************ТАБЛИЦА*****************************/
+table {
+    width: 70%;
+    border-collapse: collapse;
+  }
+ 
+  td  {
+    border: 1px solid #C2C2FF;
+    padding: 41px 46px ;
+    font-family: 'Gilroy-Semibold';
+    font-size: 20px;
+    line-height:230%;
+    letter-spacing: 0.02em;
+    color: #F2F2F2;
+    
+    
+    @media(max-width:767px){
+    display: flex;
+    justify-content: center;
+
+}
+  }
+  .more{
+    transition: all 1s ease 0s;
+  }
+  .more:hover{
+      background-color: #1F3F68;
+  }
+.href{
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+.href:hover{
+    text-decoration: underline;
+    
+}
+
+/********************************************************************************/
